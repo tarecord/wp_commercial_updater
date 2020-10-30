@@ -1,0 +1,21 @@
+{
+    "name": "tarecord/wp_commercial_updater",
+    "description": "A library for updating commercial WordPress plugins without using the WordPress.org repository",
+    "keywords": ["library", "WordPress", "commercial", "plugin"],
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Tanner Record",
+            "email": "tanner.record@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tarecord\\WP_Commercial_Updater\\": "src/"
+        }
+    }
+}
